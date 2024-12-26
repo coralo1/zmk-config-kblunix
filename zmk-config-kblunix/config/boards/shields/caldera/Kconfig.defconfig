@@ -1,0 +1,16 @@
+if SHIELD_KBLUNIX_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "KBlunix"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_KBLUNIX_LEFT || SHIELD_KBLUNIX_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
