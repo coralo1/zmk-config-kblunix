@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: kblunix_left
+    shield: kblunix_left nice_view
   - board: nice_nano_v2
-    shield: kblunix_right
+    shield: kblunix_right noce_view
   #- board: nice_nano_v2
   #  shield: settings_reset
