@@ -1,1 +1,2 @@
-zmk config, very wip
+zmk config for KBlunix,
+very wip
